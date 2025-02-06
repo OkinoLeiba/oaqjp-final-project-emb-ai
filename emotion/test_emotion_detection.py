@@ -4,7 +4,6 @@ import unittest
 
 class TestSentimentAnalyzer(unittest.TestCase):
     def test_emotion_detector(self):
-        
         result1 = emotion_detector('I am glad this happened')
         self.assertEqual(result1['dominant_emotion'], 'joy')
         
